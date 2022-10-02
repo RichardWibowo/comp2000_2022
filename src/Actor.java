@@ -5,7 +5,7 @@ public abstract class Actor {
   static int size = Cell.size;
   private Cell loc;
   enum Player {Human, Bot};
-  private Player player;
+  public Player player;
   int speed;
   int turns;
   protected MoveStrategy strat;
