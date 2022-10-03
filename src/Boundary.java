@@ -1,7 +1,5 @@
-import java.awt.image.BufferedImage;
-
 abstract class Boundary extends Cell {
-  public Boundary(int col, int row, BufferedImage img) {
-    super(col, row, img);
+  public Boundary(char col, int row, int x, int y) {
+    super(col, row, x, y);
   }
 }

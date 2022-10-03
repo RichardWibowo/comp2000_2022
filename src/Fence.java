@@ -1,10 +1,9 @@
-import java.awt.image.BufferedImage;
 import java.awt.Color;
 
 public class Fence extends Boundary {
-  public Fence(int col, int row, BufferedImage img) {
-    super(col, row, img);
+  public Fence(char col, int row, int x, int y) {
+    super(col, row, x, y);
     color = Color.MAGENTA;
-    desc = "Fence";
+    description = "Fence";
   }
 }
