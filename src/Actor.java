@@ -11,6 +11,8 @@ public abstract class Actor {
   protected MoveStrategy strat;
   protected String desc;
   protected BufferedImage img;
+  //adding interface
+  
 
   public Actor(Cell l, BufferedImage i, String d, Player p, int s) {
     loc = l;
